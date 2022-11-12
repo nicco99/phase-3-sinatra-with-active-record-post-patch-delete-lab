@@ -11,7 +11,7 @@ gem "activerecord", "~> 6.1"
 # Configures common Rake tasks for working with Active Record
 # https://github.com/sinatra-activerecord/sinatra-activerecord
 gem "sinatra-activerecord"
-
+gem "puma"
 # Rack middleware. Used specifically for parsing the request body into params.
 # https://github.com/rack/rack-contrib
 gem "rack-contrib", "~> 2.3"
@@ -22,7 +22,7 @@ gem "rake"
 
 # Provides functionality to interact with a SQLite3 database
 # https://github.com/sparklemotion/sqlite3-ruby
-gem "sqlite3", "~> 1.4"
+gem "sqlite3"
 
 # Require all files in a folder
 # https://github.com/jarmo/require_all
